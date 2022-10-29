@@ -155,11 +155,8 @@ a:hover{
 .sectin {
     width: 100%;
     height: 588px;
-    /* Высота блока */
     background-image: url(../img/3840x1582_6_1x.png);
     background-size: cover;
-    /* Масштабируем фон */
-
 }
 
 .effect {
