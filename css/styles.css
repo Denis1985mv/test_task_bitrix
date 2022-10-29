@@ -8,14 +8,19 @@
     width: 1200px;
 }
 
-.backHader2 {
+.mainNav {
     background-color: #fafafa;
+    position: fixed;   
+    top: 0;   
+    left: 0;   
+    z-index: 9999;   
+    width: 100%;   
 }
 
 
 .backHader {
 
-    /* position: fixed; */
+  
     top: 0;
     width: 100%;
     z-index: 8;
@@ -168,7 +173,8 @@ a:hover {
     margin-top: 0px;
 }
 
-.sectin {
+.sectiontop {
+    margin-top: 88px;
     width: 100%;
     height: 100%;
     background-image: url(../img/3840x1582_6_1x.png);
