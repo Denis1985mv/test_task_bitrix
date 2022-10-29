@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.backHader {
+    background-color: #fafafa;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 8;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    display: flex;
+}
+
+.logotop {
+    /* width: 134px; */
+    height: 34px;
+    margin: 28px 0px 0px 50px;
+
+}
+
+.menu {
+    height: 90px;
+    width: 1200px;
+    display: flex;
+}
+
+.menumain {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: #424242;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.menunav {
+    margin-top: 37px;
+    width: 550px;
+    margin-left: 590px;
+    
+}
+
+.topmenu {
+    margin-left: 27.85px;
+    font-family: 'Fira Sans Condensed';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #99999f;
+}
+
+.topmain{
+    padding: 80px 0px 0px 100px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6.07143rem !important;
+    color: #000000;
+}
+
+.topPositionTwo{
+    padding: 80px 0px 0px 100px;
+    font-size: 2.14286rem !important;
+}
+
+a:hover{
+    color:#33428e;/*добавляем эффект при наведении*/
+}
+
+.box {
+    display: flex;
+    font-family: 'Fira Sans Condensed';
+}
+
+.boxdown{
+    padding: 52px 0px 0px 100px;
+}
+
+.boxTwo{
+    display: flex;
+}
+
+.topTextDown{
+    font-size: 1.71429rem !important;
+    padding: 5px 0px 0px 23px;
+}
+
+.texDown{
+ padding: 52px 0px 0px 0px;
+ 
+}
+
+.leftTextCorrect{
+ padding-left: 195px;
+}
+
+
+.leftTextCorrectTwo{
+    padding-left: 141px;
+}
+
+.mainSvg{
+    width: 38px;
+}
+
+.centerTextPortOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27.85px;
+    font-family: 'Fira Sans Condensed';
+    font-weight: 900 !important;
+    font-style: normal;
+    font-size: 2.57143rem !important;
+    color: #177500;
+
+}
+
+.centerTextPosition{
+ margin: -90px 0px 60px 0px;
+ 
+}
+
+.col-md-5 {
+    width: 700px;
+    -ms-flex: 0 0 41.66667%;
+    /* flex: 0 0 41.66667%; */
+    max-width: 41.66667%;
+}
+
+.imgMain {
+    max-width: 80%;
+}
+
+.row {
+    display: flex;
+}
+
+.topPosition {
+    margin-top: 78px;
+}
+
+.sectin {
+
+    height: 560px;
+    /* Высота блока */
+    background-image: url(../img/3840x1582_6_1x.png);
+    background-size: cover;
+    /* Масштабируем фон */
+
+}
+
+.effect {
+    position: relative;
+    top: -8em;
+}
+
+element.style {
+    --border-color: #177500;
+    --color: #177500;
+}
