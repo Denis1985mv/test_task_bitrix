@@ -167,21 +167,34 @@ a:hover{
 }
 
 .sectin {
-    /* width: 1200px; */
-     height: 585px;
-
- 
-    /* Высота блока */
+    width: 100%;
+    height: 100%;
     background-image: url(../img/3840x1582_6_1x.png);
     background-size: cover;
-    /* Масштабируем фон */
+
 
 }
+
+
 
 .effect {
     position: relative;
-    margin-top: -63px;
+    margin-top: 299px;
 }
+
+@media (max-width: 1366px) {
+    .effect {
+        position: relative;
+        margin-top: -63px;
+    }
+    .sectin {
+        height: 585px;
+        background-image: url(../img/3840x1582_6_1x.png);
+        background-size: cover;
+    
+    
+    }
+  }
 
 element.style {
     --border-color: #177500;
