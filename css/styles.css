@@ -7,13 +7,14 @@
     margin: 0px auto 0px;
     width: 1200px;
 }
-.backHader2{
+
+.backHader2 {
     background-color: #fafafa;
 }
 
 
 .backHader {
- 
+
     /* position: fixed; */
     top: 0;
     width: 100%;
@@ -60,7 +61,7 @@
     margin-top: 37px;
     width: 550px;
     margin-left: 770px;
-    
+
 }
 
 .topmenu {
@@ -70,26 +71,27 @@
     font-style: normal;
     font-size: 18px;
     color: #99999f;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
-.topmain{
+.topmain {
     padding: 80px 0px 0px 0px;
     font-weight: 700;
     font-style: normal;
     font-size: 6.07143rem !important;
     color: #000000;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
-.topPositionTwo{
+.topPositionTwo {
     padding: 90px 0px 0px 0px;
     font-size: 2.14286rem !important;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
-a:hover{
-    color:#33428e;/*добавляем эффект при наведении*/
+a:hover {
+    color: #33428e;
+    /*добавляем эффект при наведении*/
 }
 
 .box {
@@ -97,39 +99,39 @@ a:hover{
     font-family: 'Fira Sans Condensed';
 }
 
-.boxdown{
+.boxdown {
     padding: 52px 0px 0px 0px;
 }
 
-.boxTwo{
+.boxTwo {
     display: flex;
 }
 
-.topTextDown{
+.topTextDown {
     font-size: 1.71429rem !important;
     padding: 5px 0px 0px 23px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
-.texDown{
- padding: 52px 0px 0px 0px;
- 
+.texDown {
+    padding: 52px 0px 0px 0px;
+
 }
 
-.leftTextCorrect{
- padding-left: 195px;
+.leftTextCorrect {
+    padding-left: 195px;
 }
 
 
-.leftTextCorrectTwo{
+.leftTextCorrectTwo {
     padding-left: 141px;
 }
 
-.mainSvg{
+.mainSvg {
     width: 38px;
 }
 
-.centerTextPortOne{
+.centerTextPortOne {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,9 +144,9 @@ a:hover{
 
 }
 
-.centerTextPosition{
- margin: 0px 0px 60px 0px;
- 
+.centerTextPosition {
+    margin: 0px 0px 60px 0px;
+
 }
 
 .col-md-5 {
@@ -172,29 +174,66 @@ a:hover{
     background-image: url(../img/3840x1582_6_1x.png);
     background-size: cover;
 
-
 }
-
-
 
 .effect {
     position: relative;
     margin-top: 299px;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1460px) {
     .effect {
         position: relative;
         margin-top: -63px;
     }
+
     .sectin {
         height: 585px;
         background-image: url(../img/3840x1582_6_1x.png);
         background-size: cover;
-    
-    
     }
-  }
+}
+
+@media (max-width: 1248px) {
+
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+
+    .effect {
+        position: relative;
+        margin-top: 140px;
+    }
+
+    .sectin {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/3840x1582_6_1x.png);
+        background-size: cover;
+    }
+
+    .centerone {
+        margin: 0px auto 0px;
+        width: 500px;
+    }
+
+    .menunav {
+        margin-top: 37px;
+        width: 550px;
+        margin-left: 0px;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: none;
+        ;
+        display: flex;
+    }
+}
 
 element.style {
     --border-color: #177500;
