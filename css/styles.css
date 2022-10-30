@@ -10,23 +10,20 @@
 
 .mainNav {
     background-color: #fafafa;
-    position: fixed;   
-    top: 0;   
-    left: 0;   
-    z-index: 9999;   
-    width: 100%;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
 }
 
-
 .backHader {
-
-  
     top: 0;
     width: 100%;
     z-index: 8;
 }
 
-.container {
+.containerThree {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -37,10 +34,8 @@
 }
 
 .logotop {
-    /* width: 134px; */
     height: 34px;
     margin: 28px 0px 0px 0px;
-
 }
 
 .menu {
@@ -66,7 +61,6 @@
     margin-top: 37px;
     width: 550px;
     margin-left: 770px;
-
 }
 
 .topmenu {
@@ -120,7 +114,6 @@ a:hover {
 
 .texDown {
     padding: 52px 0px 0px 0px;
-
 }
 
 .leftTextCorrect {
@@ -136,8 +129,8 @@ a:hover {
     width: 38px;
 }
 
-.boxTow{
- margin-top: 45px;
+.boxTow {
+    margin-top: 45px;
 }
 
 .centerTextPortOne {
@@ -150,19 +143,11 @@ a:hover {
     font-style: normal;
     font-size: 2.57143rem !important;
     color: #177500;
-
 }
 
 .centerTextPosition {
     margin: 0px 0px 60px 0px;
 
-}
-
-.col-md-5 {
-    width: 700px;
-    -ms-flex: 0 0 41.66667%;
-    /* flex: 0 0 41.66667%; */
-    max-width: 41.66667%;
 }
 
 .imgMain {
@@ -191,6 +176,229 @@ a:hover {
     margin-top: 299px;
 }
 
+
+element.style {
+    --border-color: #177500;
+    --color: #177500;
+}
+
+.container-3 {
+    width: 1200px;
+    height: auto;
+    margin: 0px auto 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 435px;
+    /* height: 350px; */
+    margin: 0px 0px 80px;
+}
+
+.head-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 562px;
+    height: 164px;
+}
+
+.header-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 521px;
+    height: 116px;
+}
+
+.main-text-3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #212121;
+}
+
+.text-3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #757575;
+}
+
+.image-pictire {
+    width: 700px;
+    -ms-flex: 0 0 41.66667%;
+    /* flex: 0 0 41.66667%; */
+    max-width: 100%;
+    padding-left: 40px;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 508px;
+    /* height: 695px; */
+    margin: 0px 0px 80px 66px;
+}
+
+.paragraph-1,
+.paragraph-2,
+.paragraph-3,
+.paragraph-4,
+.paragraph-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 22px;
+
+    width: 665px;
+    height: 123px;
+}
+
+.bold-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #212121;
+}
+
+.text-3-1 {
+
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.500rem !important;
+    line-height: 38px;
+    display: inline-block;
+    margin: 16px 0px 0px 0px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #9999a6;
+}
+
+.indent {
+    margin: 50px 0px 0px 10px;
+}
+
+.infotop {
+    padding-top: 30px;
+}
+
+
+
+
+.clients,
+.users,
+.usersInfo,
+.stars,
+.callToAction {
+    display: flex;
+}
+
+.clients {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 1440px;
+    margin: auto;
+}
+
+.text2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: dimgrey;
+    width: 398px;
+    text-align: center;
+    margin: auto;
+}
+
+.socialNet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0px 28px 0px;
+}
+
+.positiobSocial {
+    padding: 0px 85px;
+
+}
+
+.socialIcon {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700 !important;
+    font-size: 1.2500rem !important;
+    color: #177500;
+}
+
+.socialIcon a {
+    text-decoration: none;
+    color: #177500;
+
+}
+
+.socialIcon a:hover {
+    /* text-decoration: underline; */
+    background: linear-gradient(to left, #177500, #177500 100%);
+    background-position: 0 100%;
+    background-size: 100% 1px;
+    background-repeat: repeat-x;
+}
+
+.fristFooter {
+    /* padding: 25px 0px 25px; */
+    background-color: black;
+}
+
+.centerFooterPosition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0px 17px 0px;
+}
+
+.centerFooter img {
+    width: 80px;
+}
+
+.textDawn {
+    color: #99999f;
+    padding: 0px 5px 0px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: var(--ui-font-weight-regular, 400);
+    font-size: 12px;
+}
+
 @media (max-width: 1460px) {
     .effect {
         position: relative;
@@ -205,10 +413,6 @@ a:hover {
 }
 
 @media (max-width: 1248px) {
-
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
 
     .effect {
         position: relative;
@@ -243,151 +447,31 @@ a:hover {
         ;
         display: flex;
     }
-}
 
-element.style {
-    --border-color: #177500;
-    --color: #177500;
-}
+    .containerThree {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 500;
+        display: block;
 
-.container-3{
-	width: 1200px;
-	height: auto;
-	margin: 0px auto 0px;
-	display: flex;
-	flex-direction: row;
-}
-.left-block{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	width: 435px;
-	height: 695px;
-	margin: 0px 0px 80px;
-}
+    }
 
-.head-3{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	width: 562px;
-	height: 164px;
-}
+    .right-block {
+        display: block;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 300px;
+        height: 100%;
+        margin: 0px 0px 80px 66px;
+    }
 
-.header-3{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 24px;
-	width: 521px;
-	height: 116px;
-}
-.main-text-3{
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 48px;
-	line-height: 58px;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.2px;
-	text-transform: capitalize;
-	color: #212121;
-}
-.text-3{
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.2px;
-	text-transform: capitalize;
-	color: #757575;
-}
-.image-pictire {
-    width: 700px;
-    -ms-flex: 0 0 41.66667%;
-    /* flex: 0 0 41.66667%; */
-    max-width: 100%;
-    padding-left: 40px;
-}
-.right-block{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	width: 508px;
-	height: 695px;
-	margin: 0px 0px 80px 66px;
-}
-.paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4, .paragraph-5{
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 10px;
-	gap: 22px;
-
-	width: 665px;
-	height: 123px;
-}
-.bold-text{
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 27px;
-	margin: 10px 10px 0px 0px;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.2px;
-	text-transform: capitalize;
-	color: #212121;
-}
-.text-3-1{
-
-    font-family: "Fira Sans Condensed", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.500rem !important;
-	line-height: 38px;
-	display: inline-block;
-	margin: 16px 0px 0px 0px;
-	letter-spacing: 0.2px;
-	text-transform: capitalize;
-	color: #9999a6;
-}
-.indent{
-	margin: 50px 0px 0px 10px;
-}
-.infotop{
- padding-top: 30px ;
-}
-
-
-
-
-.clients, .users, .usersInfo, .stars, .callToAction{
-    display: flex;
-}
-
-.clients{
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: 1440px;
-    margin: auto;
-}
-
-.text2{
-    font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24.2px;
-    color: dimgrey;
-    width: 398px;
-    text-align: center;
-    margin: auto;
+    .socialNet {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 17px 0px 28px 0px;
+    }
 }
