@@ -311,25 +311,6 @@ element.style {
     padding-top: 30px;
 }
 
-
-
-
-.clients,
-.users,
-.usersInfo,
-.stars,
-.callToAction {
-    display: flex;
-}
-
-.clients {
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: 1440px;
-    margin: auto;
-}
-
 .text2 {
     font-family: 'Inter';
     font-style: normal;
@@ -377,7 +358,7 @@ element.style {
 
 .fristFooter {
     /* padding: 25px 0px 25px; */
-    background-color: black;
+    background-color: #242424;
 }
 
 .centerFooterPosition {
@@ -410,15 +391,15 @@ element.style {
         background-image: url(../img/3840x1582_6_1x.png);
         background-size: cover;
     }
-}
 
-.topmain {
-    padding: 80px 0px 0px 0px;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 6.07143rem !important;
-    color: #000000;
-    /* white-space: nowrap; */
+    .topmain {
+        padding: 80px 0px 0px 0px;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 6.07143rem !important;
+        color: #000000;
+        /* white-space: nowrap; */
+    }
 }
 
 @media (max-width: 1248px) {
@@ -493,12 +474,16 @@ element.style {
         padding: 17px 0px 28px 0px;
     }
 
-    
+
 }
 
 @media (max-width: 770px) {
 
-    .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4, .paragraph-5 {
+    .paragraph-1,
+    .paragraph-2,
+    .paragraph-3,
+    .paragraph-4,
+    .paragraph-5 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -511,7 +496,7 @@ element.style {
 }
 
 @media (max-width: 680px) {
-   
+
     .centerFooterPosition {
         display: block;
         align-items: center;
