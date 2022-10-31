@@ -508,9 +508,6 @@ element.style {
         transition: 0s all;
         /* display: none; */
     }
-
-
-
 }
 
 @media (max-width: 680px) {
@@ -569,7 +566,7 @@ element.style {
 
 
 .image_vis {
-    animation: image-animation 5s linear;
+    animation: image-animation 3s linear;
     animation-fill-mode: both;
 }
 
@@ -605,7 +602,7 @@ element.style {
 
 
 .textInMotion_vis {
-    animation: textInMotion-animation 5s linear;
+    animation: textInMotion-animation 2s linear;
     animation-fill-mode: both;
 }
 
